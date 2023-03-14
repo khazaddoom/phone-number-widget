@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="juego studios pvt ltd.phonenumber.Phonenumber" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Phonenumber</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="phone" type="attribute" required="true">
+                <caption>Phone Number</caption>
+                <description>Attribute for PhoneNu,ber</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
